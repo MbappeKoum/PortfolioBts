@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector("#welcome ul");let n="Bienvenue!";for(let t=0;t<n.length;t++)e.innerHTML+=`<li>${n[t]}</li>`}));

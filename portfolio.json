@@ -1,0 +1,102 @@
+{
+    "portfolio": [
+        {
+            "id": "projetCasino",
+            "title": "Projet Casino ",
+            "img": "sudouest.jpg",
+            "tools": [
+                "html5",
+                "css3",
+                "javascript"
+              
+            ],
+            "url": "https://github.com/NicoLarson/PPE_vacance_montagne/"
+        },
+        {
+            "id": "PPEGmail",
+            "title": "PPE Gmail",
+            "img": "PPE_Gmail.png",
+            "tools": [
+                "html5",
+                "css3",
+                "javascript",
+                "php",
+                "database"
+            ],
+            "url": "https://github.com/NicoLarson/PPE_Gmail"
+        },
+        {
+            "id": "gestionLigueJava",
+            "title": "Gestion des ligues",
+            "img": "PPE_Gestion_ligue_Java.png",
+            "tools": [
+                "java",
+                "database"
+            ],
+            "url": "https://github.com/NicoLarson/PPE_BTS_SIO_SLAM2/"
+        },
+        {
+            "id": "jayGalery",
+            "title": "Jay Galery",
+            "img": "jay_galery.jpg",
+            "tools": [
+                "html5",
+                "css3"
+            ],
+            "url": "https://github.com/NicoLarson/Jay_Gallery/"
+        },
+        {
+            "id": "festivalDeFilmsDePleinAir",
+            "title": "Féstival de films de plein air",
+            "img": "festival_de_film_screenshot.png",
+            "tools": [
+                "html5",
+                "css3"
+            ],
+            "url": "https://github.com/NicoLarson/FestivalDeFilm_OCR/"
+        },
+        {
+            "id": "rockPaperScissors",
+            "title": "Pierre Feuille Ciseaux",
+            "img": "rockPaperScissors.png",
+            "tools": [
+                "html5",
+                "css3",
+                "javascript"
+            ],
+            "url": "https://github.com/NicoLarson/Rock-Paper-Scissors/"
+        },
+        {
+            "id": "siteAymelineYang",
+            "title": "Site Aymeline Yang",
+            "img": "aymelineYang.png",
+            "tools": [
+                "html5",
+                "css3"
+            ],
+            "url": "https://aymelineyang.fr/"
+        },
+        {
+            "id": "ticTacToe",
+            "title": "Tic Tac Toe",
+            "img": "tictactoe.png",
+            "tools": [
+                "html5",
+                "css3",
+                "javascript"
+            ],
+            "url": "https://nicolarson.github.io/TicTacToe_js/"
+        },
+        {
+            "id": "weatherJS",
+            "title": "API Météo",
+            "img": "weatherJS.png",
+            "tools": [
+                "html5",
+                "css3",
+                "javascript"
+            ],
+            "url": "https://nicolarson.github.io/MeteoJS/"
+        }
+    ]
+}
