@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/machine.css">
+    <script src="../JQUERY/libraryRoulette.js 3.5.1.js"></script>
+    <script src="../JQUERY/JQuery 3.5.1.js"></script>
+    <script src="../JQUERY/machine.js"></script>
+    <title>Machine à sous</title>
+</head>
+<script>
+    $(
+        function()
+        {
+            $('#button').click(LancementRoulette);
+        }
+    );
+
+
+</script>
+
+</head>
+
+<body>
+
+
+    <h1 id="t1">Machine à sous de Dijon</h1>
+    
+
+    <div class="droite">
+        <div id="Laroulette" class="images">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+            <ul id="imgGauche">
+
+                <li><img class="img" src="../IMAGES/IMAGES/poulet.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/boeuf.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/paindepices.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/oeuf.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/Epoisses.jpg"></li>
+            </ul> 
+
+
+            
+        
+            <ul id="imgmilieu">
+
+                <li><img class="img" src="../IMAGES/IMAGES/paindepices.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/poulet.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/boeuf.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/paindepices.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/Epoisses.jpg"></li>
+            </ul> 
+
+
+            
+            <ul id="imgDroite">
+
+                <li><img class="img" src="../IMAGES/IMAGES/poulet.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/boeuf.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/paindepices.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/oeuf.jpg"></li>
+                <li><img class="img" src="../IMAGES/IMAGES/Epoisses.jpg"></li>
+            </ul> 
+    
+
+    <br>
+    <br>
+    
+
+          
+         
+
+        
+    
+</div>
+
+<div class="container">
+    <div class="gauche">
+        <br><br><br><br>
+        <label for="">Mise du participant: </label>
+        <input id="Mise" type="text">
+        <br><br>
+        <label for="">Cagnotte du participant: </label>
+        <input id="Cagnotte" value="90">
+        <br><br>
+        </div>
+        </div>
+
+
+<div id="deplacementbtnLancer">
+<input id="button" type="button" value="LANCER">
+</div>
+
+</body>
+</html>

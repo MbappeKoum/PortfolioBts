@@ -1,0 +1,69 @@
+#rubriques
+{
+    display: flex;
+}
+
+#rouge
+{
+    background-color: red;
+    width: 33.3%;
+    height: 700px;
+}
+#rouge:hover
+{
+    background-color: blueviolet;
+}
+
+#vert
+{
+    background-color: green;
+    width: 33.3%;
+    height: 700px;
+}
+#vert:hover
+{
+    background-color: blueviolet;
+}
+
+#jaune
+{
+    background-color: yellow;
+    width: 33.3%;
+    height: 700px;
+}
+#jaune:hover
+{
+    background-color: blueviolet;
+}
+
+p
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.bouton
+{
+    width: 200px;
+    height: 50px;
+    margin-left: 130px;
+}
+input:hover
+{
+    background-image:url(../IMAGES/degarder.jpg); 
+    background-size: 100%;
+}
+
+.RDJ
+{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h2
+{
+    text-align: center;
+}
+

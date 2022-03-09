@@ -1,0 +1,87 @@
+a
+{
+text-decoration: none;
+}
+
+#titre
+{
+  text-align: center;
+  animation: titre 1.5s infinite;
+  color: rgb(197, 29, 29);
+  background-color: white;
+} 
+@keyframes titre{
+  0%{opacity: 1;}
+  50%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+* 
+{
+  box-sizing: border-box;
+}
+
+body 
+{
+  background: url(../IMAGES/tapis.jpg)
+}
+
+.memory-game 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 110px);
+  margin-left: 600px;
+}
+
+.carteMemory 
+{
+  transition: all .4s linear;
+  transform-style: preserve-3d;
+  margin: 2px;
+}
+
+.carteMemory, .front-face, .back-face
+{
+  height: 130px;
+  width: 90px;
+}
+
+.carteMemory.retourner 
+{
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face 
+{
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front-face 
+{
+  transform: rotateY(180deg);
+}
+
+#zone
+{
+  text-align: center;
+  color: rgb(197, 29, 29);
+  background-color: white;
+  height: 200px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: -420px;
+}
+
+.choix
+{
+  background-color:rgb(197, 29, 29);
+  color: white;
+}
+
+#totalCoup
+{
+    background-color: rgb(197, 29, 29);
+}
+

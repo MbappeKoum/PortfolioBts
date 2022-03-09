@@ -1,0 +1,64 @@
+body
+{
+    background-image: url(../IMAGES/loto.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1
+{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+
+.lblTexte
+{
+    background-color: aqua;
+    color: black;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.tableau
+{
+    background-color: black;
+    width: 550px;
+}
+
+td
+{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    color: aqua;
+}
+
+#grilleOrdinateur
+{
+    position: absolute;
+    left: 50%;
+    bottom: 37%;
+}
+
+#Mise
+{
+    background-color: aqua;
+}
+
+.btn
+{
+    height: 30px;
+    width: 25%;
+    background-color: aqua;
+    color: black;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+#Cagnotte
+{
+    text-align: center;
+}
+
+

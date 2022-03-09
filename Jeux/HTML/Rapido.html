@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu du Rapido</title>
+    <link rel="stylesheet" href="../CSS/Rapido.css">
+    <script src="../JQUERY/jquery-3.1.1.js"></script>
+    <script src="../JQUERY/Rapido.js"></script>
+</head>
+<body>
+    <h1>Bienvenue au jeu du Rapido</h1>
+<div id="grilleJoueur">
+    <br><br>
+   <label for="" class="lblTexte">Veuillez séléctionner 8 numéros</label> 
+   <br><br>
+
+    <table class="tableau" border="1" onclick="compter1()" id="tableau1">
+        <tr>
+            <td class="Joueur">1</td>
+            <td class="Joueur">2</td>
+            <td class="Joueur">3</td>
+            <td class="Joueur">4</td>
+            <td class="Joueur">5</td>
+        </tr>
+        <tr>
+            <td class="Joueur">6</td>
+            <td class="Joueur">7</td>
+            <td class="Joueur">8</td>
+            <td class="Joueur">9</td>
+            <td class="Joueur">10</td>
+        </tr>
+        <tr>
+            <td class="Joueur">11</td>
+            <td class="Joueur">12</td>
+            <td class="Joueur">13</td>
+            <td class="Joueur">14</td>
+            <td class="Joueur">15</td>
+        </tr>
+        <tr>
+            <td class="Joueur">16</td>
+            <td class="Joueur">17</td>
+            <td class="Joueur">18</td>
+            <td class="Joueur">19</td>
+            <td class="Joueur">20</td>
+        </tr>
+    </table>
+    <br><br>
+    <label for="" class="lblTexte">Veuillez séléctionner 1 numéro</label>
+    <br><br>
+    <table class="tableau" border="1" onclick="compter2()" id="tableau2">
+        <tr>
+            <td class="Joueur">1</td>
+            <td class="Joueur">2</td>
+            <td class="Joueur">3</td>
+            <td class="Joueur">4</td>
+        </tr>
+    </table>
+</div>
+<div id="grilleOrdinateur">
+    <br><br>
+    <label for="" class="lblTexte">Grille de l'ordinateur</label>
+    <br><br>
+    <table class="tableau" border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <br><br>
+    <label for="" class="lblTexte">Grille de l'ordinateur</label>
+    <br><br>
+    <table class="tableau" border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+</div>
+<script>
+    $(
+        function()
+        {
+            $('td').mouseenter(Dessus);
+            $('.Joueur').click(Clicker);
+            $('#btnJouer').click(LancementJeu);
+        }
+    );
+</script>
+
+        <br><br><br>
+        <label for=""><b>Mise du participant: </b></label>
+        <input id="Mise" type="text" class="">
+        <br><br>
+        <label for=""><b> Cagnotte du Joueur:</b></label>
+        <input id="Cagnotte" value="50" disabled>
+        <br><br>
+        <input type="button" value="Jouer" id="btnJouer" class="btn">
+        <br><br>
+        <input type="button" value="Nouvelle partie" id="btnPartie" class="btn">
+
+</body>
+</html>
